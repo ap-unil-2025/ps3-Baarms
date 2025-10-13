@@ -1,4 +1,7 @@
-* 753a023 (HEAD -> main, origin/main, origin/HEAD) add git history
+* d270c90 (HEAD -> main, origin/main, origin/HEAD) Fix Problem 3 : F-strings, average formatting
+* 73f8964  “Add hello_git.py
+* 8c0fe76 Adding logs into git_log
+* 753a023 add git history
 * 30f4a52 Personalize hello message
 * 846ac7b Add hello_git.py
 * 6474e41  Completed Problem 4 : File World Counter
