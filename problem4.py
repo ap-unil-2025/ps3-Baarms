@@ -53,16 +53,7 @@ def count_lines(filename):
 
 
 def count_characters(filename, include_spaces=True):
-    """
-    Count characters in the file.
-
-    Args:
-        filename (str): Name of the file to analyze
-        include_spaces (bool): Whether to include spaces in count
-
-    Returns:
-        int: Total number of characters
-    """
+  
     with open(filename,"r") as f: 
         text = f.read()
         if not include_spaces:
