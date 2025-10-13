@@ -1,0 +1,9 @@
+* 753a023 (HEAD -> main, origin/main, origin/HEAD) add git history
+* 30f4a52 Personalize hello message
+* 846ac7b Add hello_git.py
+* 6474e41  Completed Problem 4 : File World Counter
+* 8c346a5 Completed Problem 3 : Number Analysis
+* df1b6de Completed Problem 2 : Temperature Converter
+* f487c62 Add name and Date
+* 7bcb689 Add GitHub Classroom autograding configuration
+* 2dc2daa Initial commit
