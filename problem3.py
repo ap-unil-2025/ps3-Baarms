@@ -15,7 +15,7 @@ def get_numbers_from_user():
 
     while True:
         user = input("Enter a number or Done to finish: ").strip().lower()
-        if user == "done" : 
+        if user == "done": 
             break 
         try: 
             number = float(user)
@@ -49,11 +49,11 @@ def analyze_numbers(numbers):
     analysis = {
         "count" : len(numbers),
         "sum" : sum(numbers),
-        "average" : round(sum(numbers)/len(numbers),2),
+        "average" : sum(numbers)/len(numbers),
         "minimum" : min(numbers),
         "maximum" : max(numbers),
-        "even count": len([n for n in numbers if n%2 == 0]),
-        "odd count" : len([n for n in numbers if n%2 != 0])
+        "even_count": len([n for n in numbers if n%2 == 0]),
+        "odd_count" : len([n for n in numbers if n%2 != 0])
     }
         
     return analysis
@@ -71,13 +71,13 @@ def display_analysis(analysis):
 
     print("\nAnalysis Results:")
     print("-" * 20)
-    print(f"count : {analysis ["count"]}")
-    print(f"sum : {analysis ["sum"]}")
-    print(f"Average : {analysis ["average"]}")
-    print(f"Minimum : {analysis ["minimum"]}")
+    print(f"count : {analysis ['count']}")
+    print(f"sum : {analysis ['sum']}")
+    print(f"Average : {analysis ['average']}")
+    print(f"Minimum : {analysis ['minimum']}")
     print(f"Maximumt : {analysis ["maximum"]}")
-    print(f"Even numbers : {analysis ["even count"]}")
-    print(f"Odd numbers : {analysis ["odd count"]}")
+    print(f"Even_numbers : {analysis ['even_count']}")
+    print(f"Odd_numbers : {analysis ['odd_count']}")
 
 
 
