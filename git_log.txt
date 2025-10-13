@@ -1,4 +1,5 @@
-* d270c90 (HEAD -> main, origin/main, origin/HEAD) Fix Problem 3 : F-strings, average formatting
+* 8acbe7c (HEAD -> main, origin/main, origin/HEAD)  adding logs
+* d270c90 Fix Problem 3 : F-strings, average formatting
 * 73f8964  “Add hello_git.py
 * 8c0fe76 Adding logs into git_log
 * 753a023 add git history
